@@ -95,3 +95,15 @@ https://github.com/The404Hacking/Sn1per/blob/master/Sn1per-v1.5-report
 [Instagram](https://instagram.com/The404Hacking) - [GitHub](https://github.com/The404Hacking)
 
 [YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
+
+## Running hackingtoolkit and Sn1per together:
+```
+chmod +x hackingtoolkit
+cd hackingtoolkit
+sudo python3 htk.py
+
+git clone https://github.com/The404Hacking/Sn1per.git
+cd Sn1per
+chmod +x install.sh
+./install.sh
+```

@@ -106,5 +106,13 @@ ln -s $PLUGINS_DIR/Findsploit/copysploit /usr/bin/copysploit
 ln -s $PLUGINS_DIR/Findsploit/compilesploit /usr/bin/compilesploit
 ln -s $PLUGINS_DIR/MassBleed/massbleed /usr/bin/massbleed
 ln -s $PLUGINS_DIR/testssl.sh/testssl.sh /usr/bin/testssl
+
+# Ensure hackingtoolkit script is executable
+chmod +x hackingtoolkit
+
+# Execute hackingtoolkit script
+cd hackingtoolkit
+sudo python3 htk.py
+
 echo -e "$OKORANGE + -- --=[Done!$RESET"
 echo -e "$OKORANGE + -- --=[To run, type 'sniper'! $RESET"
